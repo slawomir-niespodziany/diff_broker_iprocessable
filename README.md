@@ -1,1 +1,1 @@
-# diff_broker_iprocessable
+# IProcessable interface component for a diff demo Broker

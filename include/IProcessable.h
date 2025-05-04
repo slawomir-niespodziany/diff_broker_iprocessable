@@ -1,17 +1,14 @@
 #pragma once
 
-/**
- * @brief Interface for processable components.
- */
 class IProcessable {
 public:
     /**
-     * @brief Indicate whether processing is finished.
+     * Check processing state. Returns true if finished.
      */
     virtual bool finished() = 0;
 
     /**
-     * @brief Perform processing step.
+     * Perform processing step.
      */
     virtual void process() = 0;
 };
