@@ -4,7 +4,7 @@ This repo consists of an interface component *IProcessable*. It is part of examp
 *IProcessable* is further implemented by components which need to be processed to perform internal actions. 
 See broker repo for more details.
 
-<p align="center"><img src="img/IProcessable.png" alt="IProcessable interface"/></p>
+<p align="center"><a href="include/IProcessable.h"><img src="img/IProcessable.png" alt="IProcessable interface"/></a></p>
 
 ## Installation
 *It is recommended to build and run the whole demo app at once, by following the guide in *[broker](https://github.com/slawomir-niespodziany/diff_broker)* repo. If you only want to install this single component, then proceed with this document.*
