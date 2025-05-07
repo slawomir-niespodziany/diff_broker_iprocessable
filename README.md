@@ -6,6 +6,12 @@ This repo consists of an interface component *IProcessable*. It is a part of exa
 
 <p align="center"><a href="include/IProcessable.h"><img src="img/IProcessable.png" alt="IProcessable interface"/></a></p>
 
+## Prerequisites
+The example has been prepared and tested on Ubuntu 22.04 and Ubuntu 24.04. That being said, you only need *cmake* to install this component. The latest version (*cmake 4.0.1*) can be installed using the following command.
+```
+sudo snap install cmake --classic
+```
+
 ## Installation
 *IProcessable* is a header-only component and does not require building. It is used by components that implement or utilize the functionality it defines.
 To make it available to those components, it must be installed in CMake registry - or in any way specific to your build system. 
@@ -21,10 +27,4 @@ Run the following command from component directory to install it.
 Run the following command from component directory for manual installation.
 ```
 cmake -Bbuild -DCMAKE_EXPORT_PACKAGE_REGISTRY=ON
-```
-
-## Prerequisites
-The example has been prepared and tested on Ubuntu 22.04 and Ubuntu 24.04. That being said, you only need *cmake* to install this component. The latest version (*cmake 4.0.1*) can be installed using the following command.
-```
-sudo snap install cmake --classic
 ```
